@@ -18,9 +18,14 @@ li {
     float: top;
     display: inline-block;
     height: 30px;
+<<<<<<< HEAD
     width: 120px;
     font-size: 20px;
     line-height: 50px;
+=======
+    width: 80px;
+    margin-top: 15px;
+>>>>>>> master
 }
 li>a {
     text-decoration: none;
@@ -36,6 +41,7 @@ p {
     color: #8458B3;
 }
 footer {
+<<<<<<< HEAD
     margin-top: 60px;
     background-color: #d0bdf4;
     height: 30px;
@@ -44,6 +50,11 @@ footer {
     height: 50px;
     background-color: #a28089;
 }
+=======
+    background-color: #d0bdf4;
+    height: 30px;
+}
+>>>>>>> master
 .container{
     background-color: #a0d2eb;
     border-radius: 20px;
@@ -109,6 +120,7 @@ footer {
     grid-column: 3/4;
     grid-row: 3/4;
 }
+<<<<<<< HEAD
 #grid-template3 {
     display: grid;
     grid-template-columns: 40% auto 40%;
@@ -135,3 +147,5 @@ footer {
 }
 
 
+=======
+>>>>>>> master
