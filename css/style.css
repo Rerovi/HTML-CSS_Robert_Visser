@@ -8,7 +8,7 @@ img {
 }
 ul {
     background-color: #d0bdf4;
-    height: 50px;
+    height: 40px;
     list-style-type: none;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -17,16 +17,20 @@ ul {
 li {
     float: top;
     display: inline-block;
-    height: 30px;
+    height: 40px;
     width: 120px;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
 }
 li>a {
     text-decoration: none;
     color: #8458B3;
 }
-a:hover {
+li:hover {
+    color: #a28089;
+    background-color: #8458B3
+}
+li>a:hover {
     color: #a28089;
 }
 h2 {
@@ -34,6 +38,7 @@ h2 {
 }
 p {
     color: #8458B3;
+    font-family: 'Roboto', sans-serif;
 }
 footer {
     margin-top: 60px;
@@ -41,7 +46,7 @@ footer {
     height: 30px;
 }
 .selected {
-    height: 50px;
+    height: 40px;
     background-color: #a28089;
 }
 .container{
