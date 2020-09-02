@@ -7,16 +7,36 @@ img {
     border-radius: 20px;
 }
 ul {
+    background-color: #d0bdf4;
+    height: 50px;
     list-style-type: none;
-    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding: 0;
 }
 li {
-    display: inline;
     float: top;
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    margin-top: 15px;
 }
 li>a {
     text-decoration: none;
+    color: #8458B3;
+}
+a:hover {
+    color: #a28089;
+}
+h2 {
+    color: #8458B3;
+}
+p {
+    color: #8458B3;
+}
+footer {
+    background-color: #d0bdf4;
+    height: 30px;
 }
 .container{
     background-color: #a0d2eb;
@@ -27,9 +47,59 @@ li>a {
     border: 2px solid black;
     border-radius: 20px;
 }
+#grid-template1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 420px auto 420px;
+    grid-template-rows: 200px auto;
+}
 #landScapeTwo {
-    float: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+#landScapeTxt1 {
+    grid-column: 1/2;
+    grid-row: 2/3
 }
 #landScapeThree {
-    float: right;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#landScapeTxt2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#grid-template2 {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 200px 200px 200px;
+}
+#galaxyOne {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#galaxyTxt1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#galaxyTwo {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+#galaxyTxt2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#galaxyThree {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#galaxyTxt3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#galaxyFour {
+    grid-column: 3/4;
+    grid-row: 3/4;
 }
