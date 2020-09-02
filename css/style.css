@@ -1,3 +1,35 @@
 html {
-background-color: grey;
+    background-color: #e5eaf5;
+    text-align: center;
+}
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: top;
+}
+li>a {
+    text-decoration: none;
+}
+.container{
+    background-color: #a0d2eb;
+    border-radius: 20px;
+}
+.mainImage {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#landScapeTwo {
+    float: left;
+}
+#landScapeThree {
+    float: right;
 }
